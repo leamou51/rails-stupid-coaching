@@ -1,0 +1,71 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Open+Sans:wght@300&display=swap');
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size : 40px;
+  color: rgba(0,0,0,0.8);
+}
+
+.redirection {
+  background-color: #ede682;
+  padding : 10px;
+  text-align: center;
+  margin: 32px auto;
+  width: 300px;
+  border-radius: 8px;
+  font-family: 'Open Sans', sans-serif;
+  font-size : 24px;
+  &:hover{
+    background-color:#febf63;
+  }
+}
+
+.container a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.4);
+    &:hover {
+      color: rgba(0,0,0,0.6);
+      text-decoration: none;
+    }
+  }
+
+.your-question {
+  background-color: #7fdbda;
+  padding: 8px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  margin: 2px auto;
+  color: rgba(0,0,0,0.6);
+  h3 {
+    font-weight: bold;
+    margin: 2px;
+  }
+  p {
+    margin: 2px;
+  }
+}
+
+.coach-answer {
+  background-color: #ade498;
+  padding: 8px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+  font-family: 'Open Sans', sans-serif;
+  width: 100%;
+  margin: 24px auto;
+  color: rgba(0,0,0,0.6);
+  h3 {
+    font-weight: bold;
+    margin: 2px;
+  }
+  p {
+    margin: 2px;
+  }
+}
